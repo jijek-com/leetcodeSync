@@ -4,20 +4,19 @@
  */
 var replaceElements = function(arr) {
     const n = arr.length;
+    let max = arr.at(-1);
+    let cur = arr.at(-1);
     
-    for (let i=0; i<n; i++) {
-        let mx = 0;
-        
-        for (let j=i+1; j<n; j++) {
-            mx = Math.max(mx, arr[j]);
+    for (let i=n-1; i>=0; i--) {
+        cur = arr[i];
+        arr[i] = max;
+         
+        if (cur > max) {
+            max = cur
         }
-        
-        if (i === n-1) {
-            mx = -1
-        }
-        
-        arr[i] = mx;
     }
+         
+    arr[n-1] = -1;
     
     return arr
 };
