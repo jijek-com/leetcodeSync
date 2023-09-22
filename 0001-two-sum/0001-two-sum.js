@@ -3,12 +3,11 @@
  * @param {number} target
  * @return {number[]}
  */
-<h1>One-pass Hash Table</h1>
-<h2>Complexity</h2>
-<ul>
-    <li>Time complexity: O(n)</li>
-     <li>Space complexity: O(n)</li>
-</ul>
+
+// One-pass Hash Table
+// Complexity
+// Time complexity: O(n)
+// Space complexity: O(n)
 
 var twoSum = function(nums, target) {
     const n = nums.length;
