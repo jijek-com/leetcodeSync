@@ -1,9 +1,3 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
-
 // One-pass Hash Table
 // Complexity
 // Time complexity: O(n)
