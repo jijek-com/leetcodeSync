@@ -3,16 +3,10 @@
  * @return {number}
  */
 var arraySign = function(nums) {
-    let negative = 0;
-
-    for (const el of nums) {
-        if (el === 0) {
-            return 0
-        }
-        if (el < 0) {
-            negative++
-        }
-    }
-
-    return negative % 2 === 0 ? 1 : -1
+    let numb = nums.reduce((a,b) => a*b);
+    
+    if (numb < 0) return -1;
+    if (numb > 0) return 1;
+    
+    return 0
 };
