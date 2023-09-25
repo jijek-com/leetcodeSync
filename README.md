@@ -16,7 +16,7 @@
       <td>0001</td>
       <td><a href="https://leetcode.com/problems/two-sum/">1. Two Sum</a></td>
       <td>Easy</td>
-      <td>https://github.com/jijek-com/leetcodeSync/tree/main/0001-two-sum</td>
+      <td>https://github.com/jijek-com/leetcodeSync/tree/main/easy/0001-two-sum</td>
       <td>Hash Table</td>
     </tr>
   </tbody>
