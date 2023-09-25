@@ -3,6 +3,11 @@
  * @param {string} t
  * @return {character}
  */
+// sorting
+
+// Time Complexity: O(Nlog(N))
+// Space Complexity: O(N)
+
 var findTheDifference = function(s, t) {
     s = s.split('').sort();
     t = t.split('').sort();
