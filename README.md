@@ -17,7 +17,7 @@
       <td><a href="https://leetcode.com/problems/two-sum/">1. Two Sum</a></td>
       <td>Easy</td>
       <td>https://github.com/jijek-com/leetcodeSync/blob/main/easy/0001-two-sum.js</td>
-      <td>Hash Table</td>
+      <td>Hash Table, Brute force</td>
     </tr>
   </tbody>
 </table>
