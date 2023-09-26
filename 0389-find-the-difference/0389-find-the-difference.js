@@ -1,10 +1,4 @@
-/**
- * @param {string} s
- * @param {string} t
- * @return {character}
- */
 // sorting
-
 // Time Complexity: O(Nlog(N))
 // Space Complexity: O(N)
 
