@@ -24,6 +24,20 @@
       <td><a href="https://leetcode.com/problems/palindrome-number/">9. Palindrome Number</a></td>
       <td>Easy</td>
       <td>https://github.com/jijek-com/leetcodeSync/blob/main/easy/0009-palindrome-number.js</td>
+      <td>Math</td>
+    </tr>
+    <tr>
+      <td>0013</td>
+      <td><a href="https://leetcode.com/problems/roman-to-integer/">13. Roman to Integer</a></td>
+      <td>Easy</td>
+      <td>https://github.com/jijek-com/leetcodeSync/blob/main/easy/0013-roman-to-integer.js</td>
+      <td>Hash Table</td>
+    </tr>
+    <tr>
+      <td>0014</td>
+      <td><a href="https://leetcode.com/problems/longest-common-prefix/">14. Longest Common Prefix</a></td>
+      <td>Easy</td>
+      <td>https://github.com/jijek-com/leetcodeSync/blob/main/easy/0014-longest-common-prefix.js</td>
       <td>Array</td>
     </tr>
     <tr>

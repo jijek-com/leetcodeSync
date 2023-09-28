@@ -1,7 +1,7 @@
-/**
- * @param {string[]} strs
- * @return {string}
- */
+//  Scanning
+// Time complexity:O(S)
+// Space complexity: O(1)
+
 var longestCommonPrefix = function(strs) {
     let s = strs[0];
     let n = strs.length;
