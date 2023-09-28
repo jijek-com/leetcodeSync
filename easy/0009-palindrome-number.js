@@ -1,7 +1,7 @@
-/**
- * @param {number} x
- * @return {boolean}
- */
+// One-pass Revert half of the number
+// Time complexity:O(log 10(n))
+// Space complexity: O(1)
+
 var isPalindrome = function(x) {
     let copyX = x;
     let count = 0;

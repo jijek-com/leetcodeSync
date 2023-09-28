@@ -20,6 +20,13 @@
       <td>Hash Table, Brute force</td>
     </tr>
     <tr>
+      <td>0009</td>
+      <td><a href="https://leetcode.com/problems/palindrome-number/">9. Palindrome Number</a></td>
+      <td>Easy</td>
+      <td>https://github.com/jijek-com/leetcodeSync/blob/main/easy/0009-palindrome-number.js</td>
+      <td>Array</td>
+    </tr>
+    <tr>
       <td>1431</td>
       <td><a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies">1431. Kids With the Greatest Number of Candies</a></td>
       <td>Easy</td>
