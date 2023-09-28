@@ -4,15 +4,16 @@
  */
 var differenceOfSum = function(nums) {
     let sum = 0;
-    let dig = 0;
-    const n = nums.length;
+    let count = 0;
     
-    for (const el of nums) {
-        const digit = String(el).split('').map(res => +res).reduce((a,b) => a+b, 0);
-
-        sum += el;
-        dig += digit;
+    for (const num of nums) {
+        const el = String(num).split('')
+        .map(res => Number(res))
+        .reduce((a,b) => a+b, 0);
+        
+        sum += num;
+        count += el
     }
     
-    return Math.abs(sum - dig)
+    return Math.abs(sum - count)
 };
