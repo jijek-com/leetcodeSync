@@ -1,8 +1,7 @@
-/**
- * @param {string} jewels
- * @param {string} stones
- * @return {number}
- */
+// One-pass Hash Set
+// Time complexity: O(J+S)
+// Space complexity: O(S)
+
 var numJewelsInStones = function(jewels, stones) {
     const hash = {};
     let count = 0;

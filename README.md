@@ -41,6 +41,13 @@
       <td>Array</td>
     </tr>
     <tr>
+      <td>0771</td>
+      <td><a href="https://leetcode.com/problems/jewels-and-stones/">771. Jewels and Stones</a></td>
+      <td>Easy</td>
+      <td>https://github.com/jijek-com/leetcodeSync/blob/main/easy/0771-jewels-and-stones.js</td>
+      <td>Hash</td>
+    </tr>
+    <tr>
       <td>1431</td>
       <td><a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies">1431. Kids With the Greatest Number of Candies</a></td>
       <td>Easy</td>
