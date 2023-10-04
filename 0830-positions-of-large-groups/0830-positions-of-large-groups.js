@@ -3,7 +3,6 @@
  * @return {number[][]}
  */
 var largeGroupPositions = function(s) {
-    let hash = {};
     const n = s.length;
     let count = 0;
     let ans = [];
