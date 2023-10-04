@@ -4,8 +4,8 @@
  */
 var smallerNumbersThanCurrent = function(nums) {
     const n = nums.length;
-    let ans = [];
-
+    const ans = Array(n).fill(0);
+    
     for (let i=0; i<n; i++) {
         let count = 0;
         
@@ -14,8 +14,8 @@ var smallerNumbersThanCurrent = function(nums) {
                 count++
             }
         }
-
-        ans[i] = count;
+        
+        ans[i] = count
     }
     
     return ans
