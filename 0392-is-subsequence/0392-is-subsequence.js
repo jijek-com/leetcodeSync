@@ -4,11 +4,13 @@
  * @return {boolean}
  */
 var isSubsequence = function(s, t) {
+    if (s.length > t.length) return false;
+    
     const n = s.length;
     
     for (let i=0; i<n; i++) {
         const index = t.indexOf(s[i]);
-        
+
         if (~index) {
             t = t.slice(index+1)
         } else {
